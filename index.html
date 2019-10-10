@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Saving Calculator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Technology10 Ltd" />
+		<meta name="copyright" content="" />
+		<meta name="robots" content="index,follow"/>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="heading">
+                <h1>Saving Calculator</h1>
+            </div>
+            <div class="calculator">
+                <div class="property-value">
+                    <h2 class="txt">Property Value</h2>
+                    <input type="range" min="5000" max="5000000" step="10000" value="185000" id="pv">
+                    <output for="range" class="output-pv">£185,000</output>
+                </div>
+                <div class="percentage">
+                    <h2 class="txt">Percentage</h2>
+                    <input type="range" min="0.75" max="4" step="0.25" value="1" id="p">
+                    <output for="range" class="output-p">1%</output>
+                </div>
+                <div class="fixed-fee">
+                    <h2 class="txt">Fixed Fee</h2>
+                    <div class="amount">£499</div>
+                </div>
+                <div class="savings">
+                    <h2 class="savings-txt">Savings</h2>
+                    <div class="amount" id="v3">£1,351</div>
+                    <span id="total"></span>
+                </div>
+            </div>
+        </div>
+        <script src="assets/jquery.min.js"></script>
+        <script src='assets/script.js'></script>
+    </body>
+</html>
